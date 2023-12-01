@@ -2,7 +2,7 @@ package Day_1;
 
 import java.util.ArrayList;
 
-public class First {
+public class Day_1_First {
     public Integer solution(String input) {
         ArrayList<Integer> values = new ArrayList<>();
         ArrayList<String> stringValues = new ArrayList<>();

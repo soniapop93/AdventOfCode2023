@@ -5,7 +5,7 @@ import java.util.Map;
 
 import static java.util.Map.entry;
 
-public class Second {
+public class Day_1_Second {
     public Integer solution(String input) {
         Map<String, String> digitsInLetters = Map.ofEntries(
                 entry("1", "one"),
@@ -46,5 +46,7 @@ public class Second {
 
             stringValues.add(digitValue);
         }
+
+        return 0;
     }
 }
