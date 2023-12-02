@@ -1,4 +1,5 @@
 import Day_1.Day_1_First;
+import Day_1.Day_1_Second;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,9 +10,15 @@ public class Main {
         String input = readFile("Inputs\\Input.txt");
 
         // Day 1
-        Day_1_First day1First = new Day_1_First();
-        System.out.println(day1First.solution(inputTest));
-        System.out.println(day1First.solution(input));
+        //Day_1_First day1First = new Day_1_First();
+        //System.out.println(day1First.solution(inputTest));
+        //System.out.println(day1First.solution(input));
+
+        Day_1_Second day1Second = new Day_1_Second();
+        //System.out.println(day1Second.solution(inputTest));
+        System.out.println(day1Second.solution(input));
+
+        // Day 2
     }
 
     private static String readFile(String file) {
