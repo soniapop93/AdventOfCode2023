@@ -8,15 +8,15 @@ import static java.util.Map.entry;
 public class Day_1_Second {
     public Integer solution(String input) {
         Map<String, String> digitsInLetters = Map.ofEntries(
-                entry("1", "one"),
-                entry("2", "two"),
-                entry("3", "three"),
+                entry("o1e", "one"),
+                entry("t2o", "two"),
+                entry("th3e", "three"),
                 entry("4", "four"),
-                entry("5", "five"),
+                entry("5e", "five"),
                 entry("6", "six"),
-                entry("7", "seven"),
-                entry("8", "eight"),
-                entry("9", "nine"));
+                entry("7n", "seven"),
+                entry("e8t", "eight"),
+                entry("n9e", "nine"));
 
         ArrayList<Integer> values = new ArrayList<>();
         ArrayList<String> stringValues = new ArrayList<>();
